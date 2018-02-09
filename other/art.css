@@ -1,0 +1,75 @@
+/* CSS Document */
+
+
+*{
+font-family:"微软雅黑";
+}
+img{
+	margin:auto;
+	padding:auto;
+	vertical-align:middle;
+	color:rgb(99,99,99);
+	font-size:12px;
+	letter-spacing:20px;
+}
+
+body{
+SCROLLBAR-FACE-COLOR:#FFF;
+SCROLLBAR-HIGHLIGHT-COLOR:#FFF;
+SCROLLBAR-SHADOW-COLOR:#FFF;
+SCROLLBAR-3DLIGHT-COLOR:#FFF;
+SCROLLBAR-ARROW-COLOR:#FFF;
+SCROLLBAR-TRACK-COLOR:#FFF;
+SCROLLBAR-DARKSHADOW-COLOR:#FFF;
+SCROLLBAR-BASE-COLOR:#FFF;
+background-color:white;
+}
+.art{
+	margin:0 30px 0 50px;
+	
+	}
+.dd{
+	float:left;
+	width:50px;
+	height:50px;
+	border-radius:10px;
+	top:100px;
+	left:5px;
+	border:1px solid grey;
+	transition:0.5s;
+	color:grey;
+	position:fixed;
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||600)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	
+}
+.dd:hover{
+	box-shadow:0px 0px 5px 1px rgba(55,55,55,0.5);
+	background-color:grey;
+	color:white;
+}
+.aa{
+	float:left;
+	position:absolute;
+	font-size:40px;
+	font-weight:bold;
+	margin-left:9px;
+	margin-top:-5px;
+	cursor:pointer;
+}
+hr{
+	width:600px;
+	margin-top:-20px;
+	border-color:rgba(100,100,100,0.1);
+	text-decoration:none;
+}
+.pp1{
+	font-size:50px;
+	color:grey;
+	margin-top:35px;
+}
+.pp2{
+	font-size:15px;
+	color:#CCC;
+}
